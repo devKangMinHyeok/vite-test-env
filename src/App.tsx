@@ -4,7 +4,12 @@ function App() {
   return (
     <>
       <div>Hello</div>
-      <Link to="/swr-suspense">SWR Suspense</Link>
+      <div>
+        <Link to="/swr-suspense">SWR Suspense</Link>
+      </div>
+      <div>
+        <Link to="/react-query-suspense">RQ Suspense</Link>
+      </div>
     </>
   );
 }
